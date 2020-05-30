@@ -809,14 +809,14 @@ try:
 except Exception:
     pass
 while True:
-    pn = ""
+    pn = "9447079345"
     cc = "91"
     if '+' in cc:
         tc = list(cc)
         tc.remove('+')
         cc = ''.join(tc)
         cc = cc.strip()
-    pn = input("Enter Phone Number")
+ 
     pn = remsp(pn)
     if len(cc) >= 4 or len(cc) < 1:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
@@ -852,7 +852,7 @@ elif type == 0:
             input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 500
+    maxlim = 10000
 else:
     maxlim = 100
 if nm > maxlim:
@@ -953,7 +953,7 @@ if nm == 0:
             print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
                   str(maxlim) + ' SMS At Once...\n\n')
             input('Press Enter To Exit...')
-            os.system('rm *xxx* > /dev/null 2>&1')
+   
             banner()
             exit()
         time.sleep(1)

@@ -845,7 +845,7 @@ if type == 1:
 elif type == 0:
     if cc == "91":
         nm = int("0")
-        dl = float("3"))
+        dl = float("3")
     else:
         nm = int(input("Enter Number of Messages To Send: "))
         dl = float(

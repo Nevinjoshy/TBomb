@@ -937,7 +937,7 @@ if nm == 0:
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
-    os.system('rm *.xxx* > /dev/null 2>&1')
+ 
     print("\n\nStarting Bomb....")
     for i in range(nt):
         t[i] = threading.Thread(target=infinite, args=(pn, dl, ch, maxlim,))
